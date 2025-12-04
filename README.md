@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Calculator App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![CI](https://github.com/SKilgori/calculator-app/actions/workflows/ci.yml/badge.svg)](https://github.com/SKilgori/calculator-app/actions/workflows/ci.yml)
+[![Language](https://img.shields.io/github/languages/top/SKilgori/calculator-app)](https://github.com/SKilgori/calculator-app)
 
-## Available Scripts
+A simple, accessible calculator web app built with plain JavaScript, HTML and CSS.
 
-In the project directory, you can run:
+Demo
+- Live demo: https://skilgori.github.io/calculator-app/
 
-### `npm start`
+Quick overview
+- Purpose: A small calculator demonstrating DOM manipulation, keyboard support, and clean UX.
+- Tech: JavaScript (ES), HTML5, CSS3
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Features
+- Basic arithmetic (+ − × ÷)
+- Keyboard support
+- Clear / backspace
+- Responsive layout for desktop and mobile
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Getting started
 
-### `npm test`
+1. Clone
+   git clone https://github.com/SKilgori/calculator-app.git
+   cd calculator-app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install
+   npm install
 
-### `npm run build`
+3. Run (development)
+   npm run start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Build (production)
+   npm run build
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Development & code quality
+- Lint with ESLint: npm run lint
+- Format with Prettier: npm run format
+- Run tests (if added): npm run test
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributing
+Contributions are welcome — please read CONTRIBUTING.md for details on how to open issues and create pull requests.
 
-### `npm run eject`
+License
+This project does not include a license file. All rights reserved by the repository owner.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contact
+- Maintainer: SKilgori
+- Repo: https://github.com/SKilgori/calculator-app
